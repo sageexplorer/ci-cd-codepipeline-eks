@@ -12,7 +12,7 @@ The Flask app that will be used for this project consists of a simple API with t
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
 
-## Dependencies
+## Dependencies --
 
 - Docker Engine
     - Installation instructions for all OSes can be found [here](https://docs.docker.com/install/).
